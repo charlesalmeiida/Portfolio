@@ -1,0 +1,67 @@
+h1,
+h2,
+h3 {
+  font-family: "Signika", sans-serif;
+}
+
+h1 {
+  font-size: 6.7rem;
+  line-height: 120%;
+  color: #212529;
+}
+
+h2 {
+  font-size: 4.1rem;
+  line-height: 120%;
+  color: #212529;
+}
+
+h3 {
+  font-size: 2.5rem;
+  line-height: 120%;
+  color: #212529;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  line-height: 155%;
+  color: #212529;
+}
+
+p.tag {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #1f4287;
+}
+
+.btn-linkedin {
+  border: 0.1rem solid #071e3d;
+  border-radius: 0.4rem;
+  padding: 0.8rem 1.6rem;
+  font-family: "Roboto";
+  font-size: 1.8rem;
+  line-height: 155%;
+  color: #212529;
+  img {
+    width: 1.563rem;
+    height: 1.542rem;
+    margin-right: 0.8rem;
+  }
+}
+
+.btn-github {
+  background: #071e3d;
+  border: 0.1rem solid #071e3d;
+  border-radius: 0.4rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.8rem;
+  line-height: 155%;
+  color: #f8f9fa;
+  img {
+    width: 1.6rem;
+    height: 1.7rem;
+    margin-right: 0.8rem;
+  }
+}

@@ -1,0 +1,59 @@
+header {
+  width: 100%;
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    ul {
+      display: flex;
+      gap: 4.8rem;
+      li {
+        a {
+          font-family: "Roboto";
+          font-style: normal;
+          font-size: 1.8rem;
+          line-height: 155%;
+          color: #212529;
+        }
+      }
+    }
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      img {
+        margin-left: 5.6rem;
+      }
+    }
+    .language {
+      margin-left: 56px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.8rem;
+      a {
+        font-family: "Roboto";
+        font-style: normal;
+        font-size: 1.4rem;
+        line-height: 155%;
+        color: #212529;
+        display: flex;
+        gap: 0.4rem;
+      }
+      span {
+        font-family: "Roboto";
+        font-style: normal;
+        font-size: 1.8rem;
+        line-height: 155%;
+        opacity: 0.4;
+        margin: 0 0.6rem;
+      }
+    }
+  }
+}
