@@ -1,0 +1,77 @@
+footer {
+  background-color: #071e3d;
+  padding: 80px 0 1.6rem;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    .contact {
+      color: #f8f9fa;
+    }
+    .mail {
+      font-family: "Signika";
+      font-size: 25px;
+      line-height: 120%;
+      text-decoration-line: underline;
+      color: #f8f9fa;
+      margin: 24px 0 4rem;
+      display: block;
+    }
+    .btn-cv {
+      background: transparent;
+      border: 1px solid #f8f9fa;
+      border-radius: 0.4rem;
+      color: #f8f9fa;
+      padding: 0.8rem 1.6rem;
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      font-size: 18px;
+      line-height: 155%;
+    }
+    .right {
+      nav {
+        margin-top: 1.1rem;
+        ul {
+          display: flex;
+          gap: 4.8rem;
+          li {
+            a {
+              font-family: "Roboto";
+              font-style: normal;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 155%;
+              color: #f8f9fa;
+            }
+          }
+        }
+      }
+    }
+  }
+  .dev {
+    font-family: "Roboto";
+    font-size: 1.4rem;
+    line-height: 155%;
+    color: #f8f9fa;
+    opacity: 0.8;
+    display: block;
+    text-align: center;
+    margin-top: 3.5rem;
+    span {
+      a {
+        color: #f8f9fa;
+        opacity: 0.8;
+        text-decoration: underline;
+        font-size: 14px;
+        line-height: 155%;
+        font-family: "Roboto";
+      }
+    }
+  }
+  .social-links {
+    display: flex;
+    gap: 5.6rem;
+    justify-content: end;
+    margin-top: 10.5rem;
+  }
+}
