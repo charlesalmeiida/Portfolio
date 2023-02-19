@@ -44,6 +44,8 @@ p.tag {
   font-size: 1.8rem;
   line-height: 155%;
   color: #212529;
+  background-color: transparent;
+  cursor: pointer;
   img {
     width: 1.563rem;
     height: 1.542rem;
@@ -59,6 +61,7 @@ p.tag {
   font-size: 1.8rem;
   line-height: 155%;
   color: #f8f9fa;
+  cursor: pointer;
   img {
     width: 1.6rem;
     height: 1.7rem;
