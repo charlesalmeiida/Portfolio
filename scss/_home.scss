@@ -21,3 +21,74 @@
     height: 28.5px;
   }
 }
+
+.projects {
+  background-color: #f8f9fa;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    .tag {
+      padding: 8rem 0 0;
+      margin-bottom: 3.2rem;
+    }
+    p {
+      max-width: 41.2rem;
+      margin: 2.4rem 0;
+    }
+    img {
+      margin: 13.6rem 0 12.9rem;
+      width: 592px;
+      height: 415px;
+    }
+    .skills {
+      display: flex;
+      gap: 1.4rem;
+      .skill {
+        display: inline-block;
+        background-color: #21e6c1;
+        border-radius: 0.4rem;
+        padding: 1rem;
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 150%;
+        color: #071e3d;
+        margin: 0;
+      }
+    }
+    .btns-projects {
+      margin: 4rem 0;
+      display: flex;
+      gap: 2.4rem;
+      .rep {
+        background-color: #071e3d;
+        border: 0.1rem solid #071e3d;
+        border-radius: 0.4rem;
+        font-size: 1.8rem;
+        line-height: 155%;
+        color: #f8f9fa;
+        padding: 0.8rem 16px;
+        img {
+          width: 6px;
+          height: 12px;
+          margin: 0 0 0 0.8rem;
+        }
+      }
+      .site {
+        border: 1px solid #071e3d;
+        border-radius: 4px;
+        background: transparent;
+        font-size: 18px;
+        line-height: 155%;
+        color: #212529;
+        padding: 0.8rem 16px;
+        img {
+          width: 6px;
+          height: 12px;
+          margin: 0 0 0 0.8rem;
+        }
+      }
+    }
+  }
+}
