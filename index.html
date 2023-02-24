@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,12 +16,17 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <div class="container">
-        <img src="./assets/logo.svg" alt="Logo Charles Almeida" />
-        <nav>
+        <img
+          data-aos="zoom-in"
+          src="./assets/logo.svg"
+          alt="Logo Charles Almeida"
+        />
+        <nav data-aos="fade-left">
           <ul>
             <li><a href="#">Sobre mim</a></li>
             <li><a href="#">Projetos</a></li>
@@ -37,14 +42,14 @@
             >
             <span>/</span>
             <a class="en" href=""
-              ><img src="./assets/eua-flag.svg" alt="" /> EU</a
+              ><img src="./assets/eua-flag.svg" alt="" /> EN</a
             >
           </div>
         </nav>
       </div>
     </header>
     <section class="about-me">
-      <div class="container">
+      <div class="container" data-aos="fade-right">
         <p class="tag">SOBRE MIM</p>
         <h1><span>👋 </span> Olá, sou o Charles.</h1>
         <p>
@@ -66,14 +71,15 @@
         </div>
         <img
           class="mouse-icon"
+          data-aos="fade-up"
           src="./assets/mouse-icon.svg"
           alt="Ícone de mouse"
         />
       </div>
     </section>
     <section class="projects">
-      <div class="container">
-        <div class="left">
+      <div class="container" data-aos="fade-up">
+        <div class="left" data-aos="fade-right">
           <p class="tag">PROJETOS</p>
           <h2>Habits</h2>
           <p>
@@ -97,12 +103,12 @@
             </button>
           </div>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-left">
           <img src="./assets/habits.jpg" alt="" />
         </div>
       </div>
       <div class="container">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
           <p class="tag">PROJETOS</p>
           <h2>Dev Links</h2>
           <p>
@@ -125,12 +131,12 @@
             </button>
           </div>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-left">
           <img src="./assets/devlinks.jpg" alt="" />
         </div>
       </div>
       <div class="container">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
           <p class="tag">PROJETOS</p>
           <h2>God of War: Ragnarök</h2>
           <p>
@@ -156,14 +162,14 @@
             </button>
           </div>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-left">
           <img src="./assets/god-of-war.jpg" alt="" />
         </div>
       </div>
     </section>
     <footer>
       <div class="container">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
           <h2 class="contact">Entre em contato:</h2>
           <a class="mail" href="mailto:charles.almeida@arapiraca.ufal.br"
             >charles.almeida@arapiraca.ufal.br</a
@@ -173,7 +179,7 @@
             <img src="./assets/icon-file.svg" alt="" />
           </button>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-left">
           <nav>
             <ul>
               <li><a href="">Sobre mim</a></li>
@@ -206,5 +212,7 @@
         © 2023
       </p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

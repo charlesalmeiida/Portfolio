@@ -42,6 +42,12 @@
       margin: 13.6rem 0 12.9rem;
       width: 592px;
       height: 415px;
+      transition: transform 0.3s ease;
+      object-fit: cover;
+      overflow: hidden;
+    }
+    img:hover {
+      transform: scale(1.1);
     }
     .skills {
       display: flex;
@@ -70,11 +76,16 @@
         line-height: 155%;
         color: #f8f9fa;
         padding: 0.8rem 16px;
+        transition: all 0.3s;
+        cursor: pointer;
         img {
           width: 6px;
           height: 12px;
           margin: 0 0 0 0.8rem;
         }
+      }
+      .rep:hover {
+        transform: scale(1.1);
       }
       .site {
         border: 1px solid #071e3d;
@@ -84,11 +95,16 @@
         line-height: 155%;
         color: #212529;
         padding: 0.8rem 16px;
+        transition: all 0.3s;
+        cursor: pointer;
         img {
           width: 6px;
           height: 12px;
           margin: 0 0 0 0.8rem;
         }
+      }
+      .site:hover {
+        transform: scale(1.1);
       }
     }
   }

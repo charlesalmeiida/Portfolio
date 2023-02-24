@@ -27,6 +27,11 @@ footer {
       gap: 1.6rem;
       font-size: 18px;
       line-height: 155%;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .btn-cv:hover {
+      transform: scale(1.1);
     }
     .right {
       nav {
